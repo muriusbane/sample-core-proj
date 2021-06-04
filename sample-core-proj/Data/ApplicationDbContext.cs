@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace sample_core_proj.Data
 {
-    public class AppDBContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
              
         }
