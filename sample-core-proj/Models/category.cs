@@ -7,5 +7,6 @@ namespace sample_core_proj.Models
 {
     public class category
     {
+        public int Id { get; set }
     }
 }
