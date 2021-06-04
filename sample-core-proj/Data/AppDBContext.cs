@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using sample_core_proj.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,9 @@ namespace sample_core_proj.Data
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
         {
-
+             
         }
+
+        public DbSet<Category> Category { get; set; }
     }
 }
