@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace sample_core_proj.Models
 {
-    public class category
+    public class Category
     {
         public int Id { get; set }
     }
